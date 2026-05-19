@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en" class="bg-[#0D0D0D] text-white">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Meta Tags for SEO -->
+    <title>Luminoid AI | Next-gen Artificial Intelligence Services</title>
+    <meta name="description" content="We build the future with AI. Custom chatbots, intelligent agents, and seamless AI integrations for your business." />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <title>Luminoid AI</title>
+  </head>
+  <body class="antialiased selection:bg-primary selection:text-white overflow-x-hidden">
+    <!-- Custom Cursor -->
+    <div id="glow-cursor" class="fixed w-6 h-6 bg-primary rounded-full blur-[10px] opacity-70 pointer-events-none z-50 transform -translate-x-1/2 -translate-y-1/2 will-change-transform mix-blend-screen hidden lg:block"></div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Cursor script -->
+    <script>
+      const cursor = document.getElementById('glow-cursor');
+      let mouseX = 0;
+      let mouseY = 0;
+      let cursorX = 0;
+      let cursorY = 0;
+
+      document.addEventListener('mousemove', (e) => {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+      });
+
+      function animate() {
+        cursorX += (mouseX - cursorX) * 0.15;
+        cursorY += (mouseY - cursorY) * 0.15;
+        if(cursor) {
+            cursor.style.left = cursorX + 'px';
+            cursor.style.top = cursorY + 'px';
+        }
+        requestAnimationFrame(animate);
+      }
+      animate();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#0A0A0A] text-gray-200 font-body text-base leading-relaxed;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading text-white tracking-tight;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-white/[0.03] border border-white/10 hover:border-primary/50 transition-colors duration-200 rounded-lg;
+  }
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #2A2A2A;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #3A3A3A;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+/* Light Theme Overrides */
+html.light-theme body {
+  background-color: #FAFAFA !important;
+  color: #111111 !important;
+}
+
+html.light-theme #glow-cursor {
+  mix-blend-mode: normal !important;
+  opacity: 0.85 !important;
+  background-color: #E05A1E !important;
+  box-shadow: 0 0 15px rgba(224, 90, 30, 0.4);
+}
+
+html.light-theme .bg-\[\#0A0A0A\],
+html.light-theme .bg-\[\#111111\],
+html.light-theme .bg-black {
+  background-color: #FAFAFA !important;
+}
+
+html.light-theme .bg-\[\#1A1A1A\] {
+  background-color: #FFFFFF !important;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+}
+
+html.light-theme .text-white {
+  color: #111111 !important;
+}
+
+html.light-theme .bg-white\/\[0\.02\],
+html.light-theme .bg-white\/\[0\.04\],
+html.light-theme .bg-white\/5 {
+  background-color: #FFFFFF !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+html.light-theme .text-gray-400,
+html.light-theme .text-gray-300,
+html.light-theme .text-gray-200,
+html.light-theme .text-gray-500 {
+  color: #4B5563 !important;
+}
+
+html.light-theme .border-white\/5,
+html.light-theme .border-white\/10,
+html.light-theme .border-white\/30 {
+  border-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+html.light-theme .navbar-scrolled {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  border-bottom-color: rgba(0, 0, 0, 0.1) !important;
+}
