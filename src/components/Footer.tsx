@@ -1,5 +1,4 @@
-// ✅ Remove the broken line 1, keep this:
-import { Mail, Phone } from 'lucide-react';
+
 import { Canvas } from '@react-three/fiber';
 import { Sparkles } from '@react-three/drei';
 import { motion } from 'framer-motion';
