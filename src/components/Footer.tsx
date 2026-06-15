@@ -1,4 +1,4 @@
-import { MessageCircle } from 'lucide-react';
+import from 'lucide-react';
 import { Canvas } from '@react-three/fiber';
 import { Sparkles } from '@react-three/drei';
 import { motion } from 'framer-motion';
