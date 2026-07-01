@@ -73,7 +73,7 @@ const ProjectCard = ({ project, index }: { project: any, index: number }) => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ delay: index * 0.1 }}
-      className="perspective-1000 touch-none"
+      className="perspective-1000 touch-pan-y"
     >
       <motion.div
         ref={ref}

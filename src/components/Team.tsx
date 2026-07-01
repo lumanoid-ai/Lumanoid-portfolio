@@ -54,7 +54,7 @@ const Team = () => {
           </motion.h2>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {team.map((member, index) => (
             <motion.div
               key={index}
@@ -64,8 +64,8 @@ const Team = () => {
               transition={{ delay: index * 0.1 }}
               className="bg-[#111111] border border-white/5 rounded-lg overflow-hidden group hover:border-primary/50 transition-all duration-300"
             >
-              <div className="h-72 overflow-hidden">
-                <img src={member.image} alt={member.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+              <div className="h-72 overflow-hidden bg-black flex items-center justify-center">
+                <img src={member.image} alt={member.name} className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500" />
               </div>
               <div className="p-6 text-center">
                 <h3 className="text-xl font-bold text-white tracking-tight mb-2">{member.name}</h3>
