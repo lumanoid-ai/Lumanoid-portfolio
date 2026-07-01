@@ -8,7 +8,7 @@ const LinkedinIcon = () => (
 );
 
 const team = [
-  { name: 'Muhammad Areeb Khan', role: 'Developer', image: 'public/images/AREEB.png', linkedin: 'https://www.linkedin.com/in/muhammad-areeb-khan-a09564360' },
+  { name: 'Muhammad Areeb Khan', role: 'Developer', image: '/images/areeb.png', linkedin: 'https://www.linkedin.com/in/muhammad-areeb-khan-a09564360' },
   { name: 'Musab Ahmed', role: 'Developer', image: '/images/Musab.png', linkedin: 'https://www.linkedin.com/in/musab-ahmed-93b91727b ' },
   { name: 'Mohammad Ghous', role: 'Developer', image: '/images/ghous.jpeg', linkedin: 'https://www.linkedin.com/in/muhammad-ghous-01ab29255' },
   { name: 'Syed Mahmood Ejaz', role: 'Developer / Marketing head', image: '/images/me.jpeg', linkedin: 'https://www.linkedin.com/in/syed-mahmood-ejaz-a93910207' },

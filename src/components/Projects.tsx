@@ -31,10 +31,10 @@ const relatedProjectsByCategory = {
     { name: 'Space Prediction', category: 'Data Science', desc: 'Predicts rocket landing success using Random Forest + GridSearchCV, SpaceX live API, EDA with Plotly & Folium, deployed via interactive Streamlit dashboard.', image: '/images/Space X.png', demoLink: 'https://drive.google.com/file/d/1sVBD4o7XTyfnloWB6HMua6IXWh4IetZm/view?usp=sharing' },
   ],
   'UI/UX': [
-    { name: 'Social Media Application Design for teens', category: 'UI/UX', desc: 'Safe social space for teens connecting authentic friendships through personality tags and auto-formed tribes', image: 'public/images/FYT.png', demoLink: 'https://drive.google.com/file/d/1rCS0fzyoIhOx5uo0m5SR3PDh_uGxYn04/view?usp=sharing' },
-    { name: 'E-commerce Website (Daraz Clone)', category: 'UI/UX', desc: 'UX research and redesign identifying pain points in cluttered layouts, navigation, and product displays', image: 'public/images/Daraz clone.png', demoLink: 'https://drive.google.com/file/d/1grhG1sUrYamH7fiXX6tAuIleF0UOGfk_/view?usp=sharing' },
-    { name: 'Whatsapp Clone', category: 'UI/UX', desc: 'Multilingual messaging app prototype featuring group chats, privacy modes, and Urdu/English/Arabic support', image: 'public/images/Whatsapp clone.png', demoLink: 'https://drive.google.com/file/d/13OrZEFuoHfVKQWv0ZwH7T9wHsGjGIq93/view?usp=sharing' },
-    { name: 'Food Delivery Application', category: 'UI/UX', desc: 'Full-featured delivery platform with bilingual support, live tracking, and seamless ordering experience', image: 'public/images/food express.png', demoLink: 'https://drive.google.com/file/d/1ehz4wlu76xeQ4qWEatZpmE4zaPlnmR0b/view?usp=sharing' }
+    { name: 'Social Media Application Design for teens', category: 'UI/UX', desc: 'Safe social space for teens connecting authentic friendships through personality tags and auto-formed tribes', image: '/images/FYT.png', demoLink: 'https://drive.google.com/file/d/1rCS0fzyoIhOx5uo0m5SR3PDh_uGxYn04/view?usp=sharing' },
+    { name: 'E-commerce Website (Daraz Clone)', category: 'UI/UX', desc: 'UX research and redesign identifying pain points in cluttered layouts, navigation, and product displays', image: '/images/Daraz clone.png', demoLink: 'https://drive.google.com/file/d/1grhG1sUrYamH7fiXX6tAuIleF0UOGfk_/view?usp=sharing' },
+    { name: 'Whatsapp Clone', category: 'UI/UX', desc: 'Multilingual messaging app prototype featuring group chats, privacy modes, and Urdu/English/Arabic support', image: '/images/Whatsapp clone.png', demoLink: 'https://drive.google.com/file/d/13OrZEFuoHfVKQWv0ZwH7T9wHsGjGIq93/view?usp=sharing' },
+    { name: 'Food Delivery Application', category: 'UI/UX', desc: 'Full-featured delivery platform with bilingual support, live tracking, and seamless ordering experience', image: '/images/food express.png', demoLink: 'https://drive.google.com/file/d/1ehz4wlu76xeQ4qWEatZpmE4zaPlnmR0b/view?usp=sharing' }
   ]
 };
 
